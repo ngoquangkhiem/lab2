@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Problem 4</title>
+</head>
+
+<body>
+	<form>
+		<table cellpadding="1px" cellspacing="1px">
+			<tr>
+				<td>
+					<table border="5px" cellspacing="5px" cellpadding="5px">
+						<tr>
+							<td style="text-align: center;"><label for="name"><b>Fullname*</b></label></td>
+							<td><input type="text" id="name" name="name" required style="width: 500px;"></td>
+						</tr>
+						<tr>
+							<td style="text-align: center;"><label for="email"><b>Email*</b></label></td>
+							<td><input type="email" id="email" name="email" required style="width: 500px;"></td>
+
+						</tr>
+						<tr>
+							<td style="text-align: center;"><label for="password"> <b>Password*</b></label></td>
+							<td><input type="password" id="password" name="password" required
+									placeholder="Enter your password" style="width: 500px;"></td>
+						</tr>
+						<tr>
+							<td style="text-align: center;"><label for="confirm-password"><b>Confirm
+										Password*</b></label></td>
+							<td><input type="password" id="confirm-password" name="confirm-password" required
+									placeholder="Enter your password again" style="width: 500px;"></td>
+						</tr>
+						<tr>
+							<td style="text-align: center;"><label for="phone-number"> <b>Phone Number</b> </label></td>
+							<td style="width:20px"><input type="password" name="phone-number" style="width: 500px;">
+							</td>
+						</tr>
+						<tr>
+							<td style="text-align: center;"><label for="address"><b>Address</b></label></td>
+							<td><textarea style="width: 500px; height: 80px; "></textarea></td>
+						</tr>
+						<tr>
+							<td style="text-align: center;"><label for="city"><b>City</b><label></td>
+							<td><input type="text" name="city" required placeholder="Enter your city">
+								<b>State</b>
+								<input type="text" name="state" required placeholder="Enter your State"
+									style="width: 250px;">
+							</td>
+
+						</tr>
+						<tr>
+							<td style="text-align: center;">
+								<label for="Zip-code"><b>Zip/Postal Code</b></label>
+							</td>
+							<td><input type="text" name="Zip-code" required placeholder="Enter your Zip/Postal Code"
+									style="width: 500px;"></td>
+						</tr>
+
+						<tr>
+							<td style="text-align: center;"><label for="country"><b>Country</b></label></td>
+							<td>
+								<select id="country" name="country" required style="width: 500px;">
+									<option value="Select Country">Select Country</option>
+									<option value="us">United States</option>
+									<option value="ca">Canada</option>
+									<option value="uk">United Kingdom</option>
+									<option value="au">Australia</option>
+									<option value="other">VietNam</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td style="text-align: center;"><label for="birthdate"><b>Birthdate</b></label></td>
+							<td><input type="date" id="birthdate" name="birthdate" required placeholder="mm/dd/yyyy"
+									style="width: 500px;"></td>
+						</tr>
+						<tr>
+							<td style="text-align: center;"><label for="gender"><b>Gender</b></label></td>
+							<td>
+								<select id="gender" name="gender" required style="width: 500px;">
+									<option value="Select Gender">Select Gender</option>
+									<option value="male">Male</option>
+									<option value="female">Female</option>
+									<option value="other">Other</option>
+								</select>
+							</td>
+						</tr>
+						<tr>
+							<td style="text-align: center;"><label for="starting-date"><b>Starting date</b></label></td>
+							<td>
+								<input type="radio" name="starting-date"><label>Spring</label>
+								<input type="radio" name="starting-date"><label>Summer</label>
+							</td>
+						</tr>
+						<tr>
+							<td style="text-align: center;"><label for="comments"><b>Comments</b></label></td>
+							<td><textarea style="width: 500px; height: 100px;"></textarea></td>
+						</tr>
+						<tr>
+							<td colspan="2" style="text-align: center;"><button>Submit</button>
+						</tr>
+					</table>
+
+				</td>
+			</tr>
+	</form>
+</body>
+
+</html>
